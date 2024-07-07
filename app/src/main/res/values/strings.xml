@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My_Practice</string>
+    <string name="stud_name">Student Name</string>
+    <string name="degree_name">Degree Name</string>
+    <string name="title">Students</string>
+    <string name="email">Email</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="level">Level</string>
+    <string name="updatebtn">Update</string>
+    <string name="delete">Delete</string>
+    <string name="url">Image Url</string>
+    <string name="addDetails">Add Student Details</string>
+    <string name="add">Add</string>
+    <string name="update">Update Student Details</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/aqua"
+        android:text="@string/update" />
+
+    <EditText
+        android:id="@+id/Name_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="8dp"
+        android:background="@drawable/dialog_shape"
+        android:hint="@string/stud_name"
+         />
+    <EditText
+        android:id="@+id/Degree_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="8dp"
+        android:background="@drawable/dialog_shape"
+        android:hint="@string/degree_name"
+        />
+    <EditText
+        android:id="@+id/Email_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_margin="8dp"
+        android:background="@drawable/dialog_shape"
+        android:hint="@string/email"
+        />
+    <EditText
+        android:id="@+id/level_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="8dp"
+        android:background="@drawable/dialog_shape"
+        android:hint="@string/level"
+        />
+    <EditText
+        android:id="@+id/url_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textUri"
+        android:layout_margin="8dp"
+        android:background="@drawable/dialog_shape"
+        android:hint="@string/url"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/updatebtn"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
